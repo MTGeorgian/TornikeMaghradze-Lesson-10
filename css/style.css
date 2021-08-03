@@ -1,6 +1,6 @@
 /*  header */
 .header-container{
-    max-width: 950px;
+    max-width: 1280px;
     width: 100%;
     margin: 0 auto;
     margin-top: 52px;
@@ -28,6 +28,7 @@ nav ul li{
 .header-nav-a{
     font-size: 20px;
     font-family: 'ArchyEDT-Thin';
+    letter-spacing: 3px;
 }
 .header-nav-a:hover{
     font-size: 22px;
@@ -40,7 +41,7 @@ nav ul li{
 /*  section 1 */
 .background{
     background-image: url(../images/map.jpg);
-    max-width: 950px;
+    max-width: 1280px;
     width: 100%;
     height: 608px;
     margin: 0 auto;
@@ -50,22 +51,23 @@ nav ul li{
 }
 /* section 2 */
 .form-container{
-    max-width: 1180px;
+    max-width: 1280px;
     width: 100%;
     /* height: 500px; */
-    padding-left: 100px;
     /* margin-top: 57px; */
     margin-bottom: 100px;
 }
 .form-container form{
     display: flex;
     flex-direction: column;
+    padding-left: 200px;
 }
 .form-container form label{
     font-family: 'Helvetica';
     font-size: 18px;
     text-transform: capitalize;
     margin-bottom: 12px;
+    letter-spacing: 2px;
 }
 .form-container form input{
     margin-bottom: 25px;
@@ -114,7 +116,7 @@ nav ul li{
     height: 207px;
 }
 .footer-wrapper{
-    max-width: 950px;
+    max-width: 1280px;
     width: 100%;
     margin: 0 auto;
     display: flex;
@@ -135,6 +137,7 @@ nav ul li{
     color: white;
     font-size: 13px;
     font-family: 'ArchyEDT-Thin';
+    letter-spacing: 3px;
 }
 .footer-wrapper h4{
    
