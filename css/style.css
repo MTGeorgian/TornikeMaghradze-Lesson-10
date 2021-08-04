@@ -4,20 +4,31 @@
     width: 100%;
     margin: 0 auto;
     margin-top: 52px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 .header-logo{
     max-width: 100px;
     width: 100%;
 }
 nav{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 nav ul{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 nav ul li{
     padding-left: 40px;
@@ -38,6 +49,9 @@ nav ul li{
     max-width: 25px;
     width: 100%;
 }
+.fas{
+    display: none;
+}
 /*  section 1 */
 .background{
     background-image: url(../images/map.jpg);
@@ -47,20 +61,26 @@ nav ul li{
     margin: 0 auto;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    margin-top: 65px;
+    margin-bottom: 50px;
 }
 /* section 2 */
 .form-container{
     max-width: 1280px;
     width: 100%;
-    /* height: 500px; */
-    /* margin-top: 57px; */
+ margin:  0 auto;
     margin-bottom: 100px;
 }
 .form-container form{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    padding-left: 200px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-left: 100px;
 }
 .form-container form label{
     font-family: 'Helvetica';
@@ -72,7 +92,8 @@ nav ul li{
 .form-container form input{
     margin-bottom: 25px;
     border: none;
-    box-shadow: 1px 1px 4px 1px gray, -1px -1px 4px 1px gray;
+    -webkit-box-shadow: 1px 1px 4px 1px gray, -1px -1px 4px 1px gray;
+            box-shadow: 1px 1px 4px 1px gray, -1px -1px 4px 1px gray;
     outline: none;
     border-radius: 5px;
 }
@@ -84,7 +105,8 @@ nav ul li{
     resize: none;
     border: none;
     border-radius: 5px;
-    box-shadow: 1px 1px 4px 1px gray, -1px -1px 4px 1px gray;
+    -webkit-box-shadow: 1px 1px 4px 1px gray, -1px -1px 4px 1px gray;
+            box-shadow: 1px 1px 4px 1px gray, -1px -1px 4px 1px gray;
     outline: none;
 }
 .form-properties{
@@ -107,7 +129,9 @@ nav ul li{
     opacity: 1;
 }
 .form-button:active{
-    transform: translateY(4px);
+    -webkit-transform: translateY(4px);
+        -ms-transform: translateY(4px);
+            transform: translateY(4px);
 }
 /* footer */
 .footer-bg-color{
@@ -119,14 +143,23 @@ nav ul li{
     max-width: 1280px;
     width: 100%;
     margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-top: 56px;
     position: relative;
     top: 50%;
-    transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+        -ms-transform: translate(0, -50%);
+            transform: translate(0, -50%);
 }
 .footer-logo{
     max-width: 100px;
